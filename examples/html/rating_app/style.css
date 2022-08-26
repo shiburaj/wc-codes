@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.rating-card {
+    background-color: whitesmoke;
+    padding: 2em;
+    border-radius: .5em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.rating-smiley i.fa-solid {
+    display: none;
+    color: rgb(41, 41, 41);
+}
+
+.rating-smiley i.fa-solid:nth-child(1) {
+    display: block;
+}
+
+.rating-stars {
+    color: gray;
+}
+
+.rating-stars i:hover {
+    color: rgb(223, 134, 0);
+}
+
+.rating-stars i:nth-child(1) {
+    color: rgb(223, 134, 0);
+}
